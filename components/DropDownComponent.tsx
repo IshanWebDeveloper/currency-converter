@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
   iconStyle: {
     width: 20,
     height: 20,
+    tintColor: theme.colors.white,
   },
   inputSearchStyle: {
     height: 40,
