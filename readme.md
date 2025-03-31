@@ -12,7 +12,13 @@ A simple React Native currency converter built with Expo Router.
 
 - Node.js and npm
 - Expo CLI installed globally (`npm install -g expo-cli`)
-- Environment variables for API keys (`EXPO_PUBLIC_EXCHANGE_RATE_API_KEY`, `EXPO_PUBLIC_EXCHANGE_RATE_API_KEY_TWO`)
+- Environment variables for API keys (
+- `EXPO_PUBLIC_EXCHANGE_RATE_API_KEY` from site
+- `EXPO_PUBLIC_EXCHANGE_RATE_API_KEY_TWO`
+
+Please visit https://exchangeratesapi.io/ to get API key for `EXPO_PUBLIC_EXCHANGE_RATE_API_KEY`
+
+Please visit https://www.exchangerate-api.com/ to get API key for `EXPO_PUBLIC_EXCHANGE_RATE_API_KEY_TWO`)
 
 ## Getting Started
 
