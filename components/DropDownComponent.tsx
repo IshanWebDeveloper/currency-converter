@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   dropdown: {
     height: 50,
     borderColor: 'gray',
-    backgroundColor: '#20232c',
+    backgroundColor: theme.colors.primary,
     borderWidth: 0.5,
     borderRadius: 8,
     paddingHorizontal: 8,

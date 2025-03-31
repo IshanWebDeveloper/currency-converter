@@ -1,12 +1,12 @@
 import { Stack } from 'expo-router';
 import { Container } from '~/components/Container';
 import TextInput from '~/components/TextInput';
-import { useEffect, useState, useTransition } from 'react';
+import { useEffect, useState } from 'react';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { theme } from '~/utils/theme';
 import DropdownComponent from '~/components/DropDownComponent';
 import { StyleSheet, Text, ToastAndroid, View } from 'react-native';
-
+import { StatusBar } from 'expo-status-bar';
 type ErrorResponse = {
   success: boolean;
   error: {
@@ -86,7 +86,19 @@ export default function Home() {
 
   return (
     <>
-      <Stack.Screen options={{ title: 'Currency Converter' }} />
+      <Stack.Screen
+        options={{
+          title: 'Currency Converter',
+
+          headerStyle: {
+            backgroundColor: theme.colors.primary,
+          },
+          headerTitleStyle: {
+            color: theme.colors.white,
+          },
+        }}
+      />
+      <StatusBar style="light" translucent backgroundColor={theme.colors.primary} />
       <Container>
         <TextInput
           onChangeText={(value) => {
