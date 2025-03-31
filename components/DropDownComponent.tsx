@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Dropdown } from 'react-native-element-dropdown';
 import AntDesign from '@expo/vector-icons/AntDesign';
+import { theme } from '~/utils/theme';
 
 interface DropDownComponentProps {
   label?: string;
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
   dropdown: {
     height: 50,
     borderColor: 'gray',
-    backgroundColor: 'white',
+    backgroundColor: '#20232c',
     borderWidth: 0.5,
     borderRadius: 8,
     paddingHorizontal: 8,
@@ -70,9 +71,11 @@ const styles = StyleSheet.create({
   },
   placeholderStyle: {
     fontSize: 16,
+    color: theme.colors.inputText,
   },
   selectedTextStyle: {
     fontSize: 16,
+    color: theme.colors.white,
   },
   iconStyle: {
     width: 20,

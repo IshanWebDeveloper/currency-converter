@@ -39,11 +39,6 @@ const TextInput = ({
     </Text>
     <Input
       style={[styles.input, customInputStyle]}
-      contentStyle={{
-        fontFamily: 'Poppins-Medium',
-        color: theme.colors.inputText,
-        height: 'auto',
-      }}
       textContentType="name"
       textColor={inputTextColor}
       selectionColor={theme.colors.primary}
