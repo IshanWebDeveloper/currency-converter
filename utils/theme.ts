@@ -1,0 +1,32 @@
+import { DefaultTheme } from 'react-native-paper';
+
+export const theme = {
+  ...DefaultTheme,
+  dark: false,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: '#48385E',
+    secondary: '#414757',
+    error: '#f13a59',
+    white: '#fff',
+    boyScreenBackground: '#8888d3',
+    inputText: '#969696',
+    modalInputText: '#969696',
+    buttonInActive: '#969696',
+    widgetHeaderText: '#969696',
+    borderSectionColor: '#CFCFCF',
+    borderColor: '#D9D9D9',
+    boyBlue: '#B4D8E8',
+    girlPinkText: '#D486B8',
+    girlPinkBorder: '#FFCAD9',
+    lightgrey: '#d3d3d3',
+    button: '#48385E',
+    background: '#F9F9F9',
+    favorite: '#CC8BCF',
+    dayMealItemPink: '#CB89CE',
+    lightBlue: '#ABBCD6',
+    lightPink: '#FFCAD9',
+    routineVaccineBorder: '#F70707',
+    upcomingVaccineBorder: '#EDBC3E',
+  },
+};
